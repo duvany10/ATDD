@@ -1,0 +1,33 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+//se define el enconding
+[compileJava, compileTestJava]*.options*.encoding='ISO-8859-1'
+
+sourceCompatibility =1.7
+targetCompatibility =1.7
+
+sourceSets{
+    main {
+        java{
+            srcDir 'src'
+            }
+         }
+    test{
+        java{
+            srcDir 'test'
+        }
+        }     
+}
+
+dependencies{}
+
+test{
+    jacoco{
+        toolVersion ='0.7.1.201405082137'
+        destinationFile = file("build/jacoco/jacoco.exec")
+        append=true
+        }
+}
+
+

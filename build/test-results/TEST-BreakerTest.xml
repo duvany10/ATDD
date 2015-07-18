@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="BreakerTest" tests="11" failures="0" errors="0" timestamp="2015-07-18T14:58:09" hostname="localhost.localdomain" time="0.005">
+  <properties/>
+  <testcase name="cuatroRayas" classname="BreakerTest" time="0.001"/>
+  <testcase name="unaRayas" classname="BreakerTest" time="0.0"/>
+  <testcase name="X" classname="BreakerTest" time="0.0"/>
+  <testcase name="XX" classname="BreakerTest" time="0.0"/>
+  <testcase name="XXX" classname="BreakerTest" time="0.0"/>
+  <testcase name="XXXX" classname="BreakerTest" time="0.0"/>
+  <testcase name="XX__" classname="BreakerTest" time="0.0"/>
+  <testcase name="X___" classname="BreakerTest" time="0.0"/>
+  <testcase name="tresRayas" classname="BreakerTest" time="0.0"/>
+  <testcase name="sinRayas" classname="BreakerTest" time="0.0"/>
+  <testcase name="dosRayas" classname="BreakerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
