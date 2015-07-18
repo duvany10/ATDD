@@ -12,7 +12,7 @@ public class BreakerTest {
 	public void XXXX() {
 		String resultado;
 		resultado = cb.encontrarNumero("2345");
-		assertEquals("XXXX", resultado);
+		assertEquals("XXX", resultado);
 	}
 	
 	@Test
